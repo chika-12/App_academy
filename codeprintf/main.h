@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdargs.h>
+#include <stdarg.h>
 /**
  * _printf - returns the number output according to format
  * @format: parameter
