@@ -1,5 +1,5 @@
-This directory contains c source code on the implementations of printf function 
+This directory contains ruby code on the implementations of various problems 
 ~~~
-written by Chika Mark and Zohour Eid
+written by Chika Mark
 ~~~
 
