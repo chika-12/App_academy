@@ -7,7 +7,12 @@
 # to be the same before and after calling your method.
 
 def scalar_multiple!(array, multiplier)
-
+    new_arr = []
+    array.each do |val|
+        new_arr << val * multiplier
+    end
+    array = new_arr
+    return array
 end
 
 
