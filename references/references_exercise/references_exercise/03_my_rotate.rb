@@ -11,10 +11,22 @@
 
 
 def my_rotate!(array, amt)
-
+    if amt >= 0
+        n = amt
+        n.times do |val|
+            num = array.shift
+            array << num
+        end
+    end
+    if amt < 0
+        n = amt * -1
+        n.times do |val|
+            num = array.pop
+            array.unshift(num)
+        end
+    end
+    return array
 end
-
-
 array_1 = ["a", "b", "c", "d"]
 p array_1.object_id                 # => 70354216023780
 result_1 = my_rotate!(array_1, 2)
