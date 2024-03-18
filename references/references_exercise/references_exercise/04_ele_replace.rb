@@ -7,7 +7,14 @@
 # to be the same before and after calling your method.
 
 def ele_replace!(array, hash)
-
+    n = array.length
+    n.times do |val|
+        if hash.include?(array[val])
+            num =  hash[array[val]]
+            array[val] = num
+        end
+    end
+    return array
 end
 
 
