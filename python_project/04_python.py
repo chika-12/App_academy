@@ -22,3 +22,15 @@ for car in cars:
 
 print ("These are the cars")
         
+#Using if conditions
+arr = []
+for index in range(0, 30):
+    if index % 2 == 0 or index % 3 == 0:
+        arr.append(index)
+print(arr)
+print(19 in arr) #To check if a value is in a collection of value
+n = [0,2,3]
+if n[1] not in arr:
+    print("The data is not complete")
+else:
+    print("The data is complete")
