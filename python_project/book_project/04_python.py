@@ -15,3 +15,4 @@ def sent_messages(text, sent_message=[]):
     print(text)
 sent_messages(messages[:], sent_message=[])
 """
+#You can use as to create an alias

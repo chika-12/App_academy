@@ -32,10 +32,11 @@ elif val == "no":
 else:
     print("Your input is wrong bye")
 """
+
 flag = True
 responses = {}
 while flag == True:
-    print("Welcome To The Low Call Show")
+    print("Welcome To The Low Call Show")   
     name = input("What is your name: ")
     response = input("Which city will you like to visit: ")
     responses[name] = response

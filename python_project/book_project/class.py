@@ -37,9 +37,33 @@ class Car:
         self.meter_reading += distance
         print(self.meter_reading)
     
-my_car = Car("Benz", "glt", 2001)
-my_car.describe_car()
-my_car.read_meter()
-my_car.update_meter(45)
-my_car.read_meter()
-my_car.read_meter()
+#my_car = Car("Benz", "glt", 2001)
+#my_car.describe_car()
+#my_car.read_meter()
+#my_car.update_meter(45)
+#my_car.read_meter()
+#my_car.read_meter()
+class Use:
+    """ Describes how to use a car"""
+    def __init__(self, power = 67):
+        self.power = power
+
+    
+    def how_to_use(self):
+        print("This car is good it has {} horse power".format(self.power))
+
+class ElectricCars(Car):
+    """ An electric car"""
+    def __init__(self, make, model, year):
+        super().__init__(make, model, year)
+        self.battery = 44
+        self.use = Use()
+    
+    def battery_info(self):
+        print("{} cars has {} battery".format(self.make, self.battery))
+
+My_electricCar = ElectricCars("Tesla", "Models", 2019)
+My_electricCar.describe_car()
+My_electricCar.battery_info()
+
+My_electricCar.use.how_to_use()
