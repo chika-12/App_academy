@@ -138,6 +138,11 @@ class AlienInvasion():
         self.aliens.draw(self.screen)
         #make the most recent drawn screen visible
         pygame.display.flip()
+        if not self.aliens:
+            # Destroy existing bullets and create new fleet.
+            self.bullets.empty()
+            self._create_fleet()
+
 
 if __name__=="__main__":
     ai = AlienInvasion()
