@@ -4,7 +4,7 @@ class Settings():
     def __init__(self):
         """Initialize the game settings."""
 
-        #Screen settings
+        """Screen settings"""
         self.screen_width = 1200
         self.screen_height = 620
         self.bg_color = (230, 230, 230)
@@ -16,3 +16,6 @@ class Settings():
         self.bullet_width = 3
         self.bullet_height = 15
         self.allowed_bullet = 6
+
+        """Alien ship Settings"""
+        self.alien_ship_speed = 1.0
