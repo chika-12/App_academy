@@ -19,3 +19,6 @@ class Settings():
 
         """Alien ship Settings"""
         self.alien_ship_speed = 1.0
+        self.fleet_drop_speed = 10
+        """direction of 1 represent right -1 represent left"""
+        self.fleet_direction = 1
