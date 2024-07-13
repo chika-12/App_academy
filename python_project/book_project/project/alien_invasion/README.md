@@ -26,4 +26,8 @@ it is purely for entertainment purpose.
                 have to press "q" on your keyboard to quit as this is the only way to close 
                 the python window that will be automatically created  by lunching this game.
 
+                Nb: You might need to install pygame for this game run on your system:
+                To install pygame type this on your terminal: python3 -m pip install --user pygame or
+                python -m pip install --user pygame
+
     This file will be updated................................ 
