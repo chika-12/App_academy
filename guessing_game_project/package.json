@@ -1,0 +1,20 @@
+{
+  "name": "guessing_game_project",
+  "version": "1.0.0",
+  "description": "guessing game",
+  "main": "guessing_game.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "start": "node guessing_game.js"
+  },
+  "keywords": [
+    "guess"
+  ],
+  "author": "Chika Mark",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "colors": "^1.4.0"
+  }
+}
